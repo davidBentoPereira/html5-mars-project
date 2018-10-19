@@ -82,6 +82,9 @@ window.onload = function()
         else if (event.key === 'q') moveDown();
         else if (event.key === 's') moveForward();
         else if (event.key === 'd') moveUp();
+        else if (event.key === 'w') lightSpeed();
+        else if (event.key === 'x') maxShield();
+        else if (event.key === 'c') maxSystemPower();
     });
 
     window.addEventListener("gamepadconnected", function(e)
