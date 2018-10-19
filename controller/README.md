@@ -31,10 +31,12 @@ Go to [http://localhost:8080/controller/pilot](http://localhost:8080/controller/
 
 ## Artilleur
 
-Le dashboard de l'artilleur se compose d'une interface d'information sur l'état du vaisseau (partie gauche) et d'un centre de commande de la tourelle. Celui-ci se compose de deux panneaux :
-- Le premier permet de contrôler la tourelle
+Le dashboard de l'artilleur se compose d'une interface d'information sur l'état du vaisseau (partie gauche) réactualisé chaque seconde et d'un centre de commande de la tourelle (partie droite). Ce dernier se compose de trois panneaux :
+- Le premier permet de contrôler l'angle de tir de la tourelle
+- Le second permet de tirer avec la tourelle selon plusieurs niveau de puissance
+(Bunus) - Le troisième panneau est un bonus permettant de contrôler également la partie déplacement
 
-- Le second permet de contrôler le tir de la tourelle
+(Bonus) Il est à noter que si vous disposer d'un gamepad, il est possible de le connecter et de contrôler le vaisseau spatial direcetement depuis-celui-ci !
 
 Go to [http://localhost:8080/controller/turret](http://localhost:8080/controller/turret)
 
